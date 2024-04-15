@@ -1,0 +1,37 @@
+body{
+    background-color:darkslategrey;
+    color :aliceblue;
+    text-align:center;
+    align-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+form{
+    margin:auto;
+    width: 600px;
+}
+
+fieldset{
+    text-align: start;
+    border: none;
+    margin: 20px;
+    
+}
+
+input ,select , textarea {
+    width: 80%;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+}
+
+.account  input {
+    width:5%;
+}
+label {
+    display: block;
+    /* margin: 0.5rem 0; */
+    padding:5px;
+}
+
+
+

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    font-family: monospace;
+    font-size: 1em;
+  }
+
+header {
+    background-color: black;
+    color : white;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap : 10px;
+    margin:auto;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a {
+    color : white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer {
+      font-weight: bold;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: right;
+      background-color: black;
+      color: white;
+    
+}
+
+footer p {
+    padding-right:10px;
+}

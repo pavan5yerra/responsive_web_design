@@ -1,0 +1,11 @@
+{
+  "name": "responsive_web_design",
+  "version": "1.0.0",
+  "description": "This Repo is About Responsive Design using plain HTML &amp; CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavan Yerra",
+  "license": "ISC"
+}
